@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="dashboard.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- NAV -->
+<nav class="navbar-wrapper navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+          <a class="navbar-brand" rel="home" href="homepage.html" title="Logo">
+            <img src="file:///Users/justinroytamaela/Documents/HVA/Afstudeerstage/CE/Beeldmateriaal/ce_bw_logo.png">
+          </a>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Vacatures</a>
+          </div>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="werkgever.html">Werkgever</a>
+          </div>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Veelgestelde vragen</a>
+          </div>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Inloggen</a>
+          </div>
+        </div>
+</nav>
+<!-- Navigatie -->
+<div class="container-fluid">
+  <div class="row">
+    <h1>Dashboard</h1></br>
+    <div class="well col-md-12">
+      <p>Welkom, [naam]</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="panel panel-default col-md-3">
+      <div class="panel-heading">
+        <h3 class="panel-title glyphicon glyphicon-user"> [ naam ]</h3>
+      </div>
+      <div class="panel-body">
+        <p>Actief: 2</br>Totaal: 2</p>
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-cog"> Instellingen</span>
+          </button>
+          <a href="vacature.html"><input type="button" class="btn btn-success" style="border-radius: 0px;" value="Plaats nieuwe vacature"></a>
+      </div>
+    </div>
+    <div class="panel panel-default col-md-8">
+      <div class="panel-heading">
+        <h3 class="panel-title glyphicon glyphicon-th-list"> Uw vacatures</h3>
+      </div>
+      <div class="table-body">
+        <table class="table table-striped">
+          <tr>
+            <th></th>
+            <th>Vacature Titel</th>
+            <th>Datum</td>
+            <th>Vacature nummer</th>
+            <th>Aantal reacties</th>
+            <th>Bekijk meer</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td><a href="detail.html">Assistant Professor in Faculty Development</a></td>
+            <td>14 / 03 / 15</td>
+            <td>AT2045.165</td>
+            <td>15</td>
+            <td><a href="detail.html"><input type="button" class="btn btn-default" style="border-radius: 0px;" value="meer"></a>
+            </td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td><a href="detail2.html" class="textcenter">Lector Smart Urban Redesign</a></td>
+            <td>14 / 03 / 15</td>
+            <td>AT2015.165</td>
+            <td>8</td>
+            <td><a href="detail.html"><input type="button" class="btn btn-default" style="border-radius: 0px;" value="meer"></a></td>
+          </tr>
+        </table> 
+      </div>
+    </div>
+</body>
+</html>
