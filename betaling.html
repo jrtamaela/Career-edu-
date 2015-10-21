@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Betaling</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="betaling.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- NAV -->
+<nav class="navbar-wrapper navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+            <a class="navbar-brand" rel="home" href="homepage.html" title="Logo">
+              <img src="file:///Users/justinroytamaela/Documents/HVA/Afstudeerstage/CE/Beeldmateriaal/ce_bw_logo.png">
+            </a>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Vacatures</a>
+          </div>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="werkgever.html">Werkgever</a>
+          </div>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Veelgestelde vragen</a>
+          </div>
+          <div class="navbar-header">
+            <a class="navbar-brand" href="dashboard.html">Inloggen</a>
+          </div>
+        </div>
+</nav>
+<!-- Navigatie -->
+  <div class="row">
+    <ol class="breadcrumb" style="border-radius: 0px">
+      <li><a href="vacature.html">Vacature details</a></li>
+      <li><a href="vacature2.html">Bedrijf details</a></li>
+      <li><a href="voorbeeld.html">Voorbeeld</a></li>
+      <li><a href="betaling.html">Betaling</a></li>
+    </ol>
+  </div>
+<div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-6">
+        <h2>Betaalwijze:</h2>
+          <label><input type="radio" id="radio" name="optradio">Ideal<img src="file:///Users/justinroytamaela/Documents/HVA/Afstudeerstage/CE/Beeldmateriaal/ideal.png" alt="">
+          </label>
+          <label><input type="radio" id="radio" name="optradio">Creditcard<img src="file:///Users/justinroytamaela/Documents/HVA/Afstudeerstage/CE/Beeldmateriaal/creditcard.png" alt="">
+          </label>
+          <label><input type="radio" id="radio" name="optradio">Paypal<img src="file:///Users/justinroytamaela/Documents/HVA/Afstudeerstage/CE/Beeldmateriaal/paypal.png" alt="">
+          </label>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-3 pull-left">
+        <h2>Uw bestelling:</h2>
+          <h4>Bedrijf:</h4>
+            <p>HAN Hogeschool</p>
+          <h4>Plaats:</h4>
+            <p>Arnhem</p>
+          <h4>Type vacature:</h4>
+            <p>STANDAARD</p>
+          <h4>Betalingswijze:</h4>
+            <p>Ideal</p>
+        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <p>Als u op 'volgende' klikt gaat u verder in een beveiligde betaal omgeving</p>
+      </div>
+      <div class="form-group col-xs-12 col-sm-6 col-md-6">
+        <a href="vacature.html"><input type="button" class="btn btn-success col-xs-12 col-sm-4 col-md-4" style="border-radius: 0px;" value="Vorige"></a>
+        <a href="mollie.html"><input type="button" class="btn btn-success col-xs-12 col-sm-4 col-sm-push-4 col-md-4 col-md-push-4" style="border-radius: 0px;" value="Volgende"></a>
+      </div>
+    </div>
+</div>
+
+</body>
+</html>

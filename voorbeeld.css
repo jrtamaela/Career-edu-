@@ -1,0 +1,37 @@
+.navbar-wrapper{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.navbar-default{
+  text-align: right;
+}
+.navbar-brand img{
+  height: auto;
+  max-width: 200px;
+}
+form{
+  margin: 30px 80px 0px 80px;
+}
+.breadcrumb{
+  margin: 4.5% 10% 0% 13.5%;
+  position: fixed;
+}
+.row .btn{
+  border-radius: 0px;
+  margin-left: 80px;
+}
+.row img{
+	height: 60px;
+}
+.col-md-3{
+	margin-top: 10px;
+	margin-left: 80px;
+}
+.btn .btn-default{
+  margin-right: 15px;
+  margin-bottom: 50px;
+}
+.panel{
+	margin: 6% 10% 0% 10%;
+  overflow: scroll;
+}

@@ -1,0 +1,80 @@
+.navbar-wrapper{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.navbar-default{
+	text-align: right;
+}
+.navbar-brand img{
+	height: auto;
+	max-width: 200px;
+}
+.row{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.btn{
+	width: 100%;
+}
+.btn-default{
+	border-radius: 0px;
+}
+.btn-primary{
+	margin-top:10px;
+	border-radius: 0px;
+}
+.btn-info{
+	border-radius: 0px;
+}
+.btn-succes{
+	width:100px;
+}
+.btn-secondary{
+	background-color: white;
+	border-radius: 0px;
+	margin-top: 20px;
+}
+.well{
+	background-color: beige;
+	margin: 0.5% 12% 0% 3.5%;
+	border-radius: 0px;
+}
+.well > .row{
+	padding-left: 0%;
+}
+.well > p{
+	margin-bottom: 0px;
+}
+h1{
+	font-size: 18px;
+	margin: 6% 10% 0% 3.5%;
+}
+h2{
+	font-size: 21px;
+}
+.col-md-3{
+	margin-left: 3.5%;
+	margin-right: 0%;
+	margin-top: 3%;
+	padding:0px;
+}
+.col-md-2{
+	margin-top: 3%;
+	margin-left: 3.5%;
+	margin-right: 0%;
+	padding:0px;
+}
+.panel{
+	border-radius: 0px;
+}
+.panel-heading{
+	padding
+}
+
+
+
+
+
+
+
+

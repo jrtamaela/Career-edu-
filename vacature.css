@@ -1,0 +1,27 @@
+.navbar-wrapper{
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.navbar-default{
+	text-align: right;
+}
+.navbar-brand img{
+	height: auto;
+	max-width: 200px;
+}
+form{
+	margin: 6% 10% 0% 13.15%;
+}
+.breadcrumb{
+	margin: 4.5% 10% 0% 13.5%;
+	position: fixed;
+}
+#radio{
+	margin: 0px 10px 0px 10px;
+}
+.row{
+	border-radius: 0px;
+}
+.btn .btn-default{
+	margin-right: 15px;
+}
