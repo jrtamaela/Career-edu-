@@ -34,7 +34,7 @@
 <div class="container-fluid">
     <div class="row">
     <ol class="breadcrumb" style="border-radius: 0px">
-      <li><a href="dashboard.html" class="active">Dashboard</a></li>
+      <li><a href="dashboard.html">Dashboard</a></li>
       <li><a href="vacature2.html"> Vacature details</a></li>
     </ol>
   </div>
@@ -57,7 +57,9 @@
           </tr>
           <tr>
             <td>Aantal dagen actief</td>
-            <td><strong>15</strong> van de 90 dagen</td>
+            <td><strong>15</strong> van de 90 dagen</br>
+            <a href="#"> Verlengen </a>
+            </td>
           </tr>
         </table>
         <button type="button" class="btn btn-default">
@@ -73,11 +75,36 @@
           Bewerk Vacature
           </a>
         </button>
-        <button type="button" class="btn btn-danger">
-            <span class="glyphicon glyphicon-remove"> Verwijder vacature</span>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-danger btn-md" data-toggle="modal" data-target="#verwijder">
+          Verwijder vacature
         </button>
+        <!-- Modal -->
+        <div class="modal fade verwijder-modal-sm" id="verwijder" tabindex="-1" role="dialog" aria-labelledby="verwijder">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="verwijder">Vacature verwijderen</h4>
+              </div>
+              <div class="modal-body">
+                <p>Weet u zeker dat u de vacature wil verwijderen? </br>
+                    Als u de vacature verwijderd dan kunt u geen reacties meer ontvangen.
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-danger btn-md" data-dismiss="modal">
+                  Verwijder vacature
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
     <div class="panel panel-default col-md-7">
       <div class="panel-heading">
         <h3 class="panel-title glyphicon glyphicon-inbox"> Ontvangen reacties</h3>
@@ -100,7 +127,7 @@
             <td>pvadijk@gmail.com </td>
             <td>
               <button type="button" class="btn btn-default">
-                <a href="" class="glyphicon glyphicon-arrow-down"></a>
+                <a href="#" class="glyphicon glyphicon-arrow-down"></a>
               </button>
             </td>
           </tr>
