@@ -34,16 +34,17 @@
 <div class="container-fluid">
   <div class="row">
     <h1>Dashboard</h1></br>
-    <div class="well col-md-12">
-      <div class="col-md-6">    
-        <p><strong>Bedankt voor uw bestelling! Uw vacature is geplaatst.</strong></p></br>
+    <div class="alert alert-info alert-dismissible" role="alert">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <h3><strong>Bedankt voor uw bestelling!</strong></h3></br>
         <p>Om de voortgang van uw vacature te volgen, dient u eerst uw account te activeren via de activatiemail</p>
-      </div>
-      <div class="col-md-2 col-md-push-1">
-        <p class="text-center">Mail niet ontvangen?</p>
-      </div>
-      <div class="col-md-2 col-md-push-1">
-        <a href="dashboard.html"><input type="button" class="btn btn-info" style="border-radius: 0px;" value="Stuur opnieuw"></a>
+      <div class="row">
+        <div class="col-md-2 pull-right">
+          <a href="#"><input type="button" class="btn btn-info" data-dismiss="alert" aria-label="Close" style="border-radius: 0px;" value="Stuur opnieuw"></a>
+        </div>
+        <div class="col-md-4 pull-right">
+          <p class="text-center">Activatiemail niet ontvangen?</p>
+        </div>
       </div>
     </div>
   </div>
@@ -82,7 +83,7 @@
             <td><a href="detail.html">Assistant Professor in Faculty Development</a></td>
             <td>14 / 03 / 15</td>
             <td>AT2045.165</td>
-            <td>15</td>
+            <td>2</td>
             <td><a href="detail.html"><input type="button" class="btn btn-default" style="border-radius: 0px;" value="meer"></a>
             </td>
           </tr>
