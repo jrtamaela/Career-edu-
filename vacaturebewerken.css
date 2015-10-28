@@ -13,6 +13,9 @@
 	padding-left: 10%;
 	padding-right: 10%;
 }
+.breadcrumb{
+	margin: 5.8% 3.5% 0% 3.5%;
+}
 .btn{
 	width: 100%;
 }
@@ -26,16 +29,18 @@
 	margin-top:10px;
 	border-radius: 0px;
 }
+.btn-danger{
+	border-radius: 0px;
+	margin-top: 10px;
+}
 .btn-info{
 	border-radius: 0px;
 }
 .btn-secondary{
-	background-color: white;
-	border-radius: 0px;
-	margin-top: 20px;
+	border-radius: 1px;
 }
-.alert{
-	margin: 0.5% 3% 0% 3.5%;
+.well{
+	margin: 0.5% 12% 0% 3.5%;
 	border-radius: 0px;
 }
 h1{
@@ -45,14 +50,17 @@ h1{
 h2{
 	font-size: 21px;
 }
-.col-md-3{
+h3{
+	margin-left: 3.5%;
+}
+.col-md-4{
 	margin-left: 3.5%;
 	margin-right: 0%;
-	margin-top: 3%;
+	margin-top: 1%;
 	padding:0px;
 }
-.col-md-8{
-	margin-top: 3%;
+.col-md-7{
+	margin-top: 1%;
 	margin-left: 2%;
 }
 .col-md-2{
@@ -62,6 +70,20 @@ h2{
 	padding:0px;
 }
 .panel{
+	margin: 2% 0.5% 0% 3.5%;
 	border-radius: 0px;
 	padding: 0px;
+}
+.pagination{
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 30px;
+}
+.pagination > li:first-child > a{
+	border-bottom-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.pagination > li:last-child > a{
+		border-bottom-right-radius:0px;
+	border-top-right-radius:0px;
 }
