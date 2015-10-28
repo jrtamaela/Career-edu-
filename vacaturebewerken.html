@@ -45,8 +45,8 @@
     <h3 class="glyphicon glyphicon-pencil"> vacature bewerken</h3>  
   </div>
   <div class="row">
-    <h4 class="col-md-6">Vacature Details</h4>
-    <h4 class="col-md-6">Bedrijf Details</h4>
+    <h4 class="col-md-5">Vacature Details</h4>
+    <!-- <h4 class="col-md-5">Bedrijf Details</h4> -->
   </div>
   <div class="row">
     <div class="panel-group col-md-6" id="accordion" role="tablist" aria-multiselectable="true">
@@ -54,13 +54,52 @@
         <div class="panel-heading" role="tab" id="headingOne">
           <h4 class="panel-title">
             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Collapsible Group Item #1
+            Algemeen
             </a>
           </h4>
         </div>
           <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
             <div class="panel-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <div class="form-group">
+                <label for="vacaturetitel">Vacature Titel: </br> Assistant Professor in Faculty Development
+                  <span class="glyphicon glyphicon-pencil" aria-hidden="true" data-toggle="collapse" href="#collapsevacaturetitel" aria-expanded="false" aria-controls="collapseExample"></span>
+                </label>
+                <div class="collapse" id="collapsevacaturetitel">
+                  <input type="email" class="form-control" id="vacaturetitel" style="border-radius: 0px" placeholder="Assistant Professor in Faculty Development">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="vacaturetitel">Vakgebied: </br> Vakgebied 2
+                  <span class="glyphicon glyphicon-pencil" aria-hidden="true" data-toggle="collapse" href="#collapsevakgebied" aria-expanded="false" aria-controls="collapseExample"></span>
+                </label>
+                  <select class="form-control collapse" id="collapsevakgebied" style="border-radius: 0px">
+                    <option>vakgebied 2</option>
+                    <option>vakgebied 1</option>
+                    <option>vakgebied 3</option>
+                    <option>vakgebied 4</option>
+                    <option>vakgebied 5</option>
+                  </select>
+              </div>
+              <div class="form-group">
+                <label for="type">Soort dienstverband:</br> Fulltime
+                  <span class="glyphicon glyphicon-pencil" aria-hidden="true" data-toggle="collapse" href="#collapsetype" aria-expanded="false" aria-controls="collapseExample"></span>
+                </label></br>
+                <div class="collapse" id="collapsetype">
+                  <label><input type="radio" id="radio" name="optradio">    Fulltime</label>
+                  <label><input type="radio" id="radio" name="optradio">    Partime</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="geldigheid">Vacature geldig tot:
+                 <span class="glyphicon glyphicon-pencil" aria-hidden="true" data-toggle="collapse" href="#collapsegeldigheid" aria-expanded="false" aria-controls="collapseExample"></span>
+                </label>
+                <div class="collapse" id="collapsegeldigheid">
+                  <input type="email" class="form-control" id="geldigheid" style="border-radius: 0px" placeholder="Vul de vacature titel in">
+                  <div class="checkbox">
+                    <label><input type="checkbox"> Tot vacature is vervuld</label>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
       </div>
@@ -68,13 +107,14 @@
         <div class="panel-heading" role="tab" id="headingTwo">
           <h4 class="panel-title">
             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Collapsible Group Item #2
+            Beschrijving
             </a>
           </h4>
         </div>
           <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
             <div class="panel-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <textarea class="col-md-12"> Me Snapped Ready Rattled Wonderful Hike So I Working Go We Congratulations It Using Neither Bouncing Nook Dunk Be Pip Ride A Somewhere. Can Frequently I Nowhere Goldfish Mothers Be Building Hair Haircut He'll Teeth Calling Plane Aid Me State Lighted Darked A Children Carried How's Or Juice One Rot Cut Lit Behind Sneered Pin Repairs Peaceable So His Our Yourselves. End Clarinets Congratulations Guaranteed Everywhere Dopp Voices Against My Smiled I Cold Banner Should Discovered How Again A Fingers Fox Rid Sincerely Frightening Sun Open Seem Rot Up Carried Horn He'll Ceilings Grow Goldfish.
+              </textarea>
             </div>
           </div>
       </div>
@@ -82,18 +122,39 @@
         <div class="panel-heading" role="tab" id="headingThree">
           <h4 class="panel-title">
             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            Collapsible Group Item #3
+            Contact gegevens
             </a>
           </h4>
         </div>
           <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
             <div class="panel-body">
-            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <div class="formgroup">
+                <label for="vacaturetitel">Email adres contact persoon: </br> jandewaard@han.nl
+                  <span class="glyphicon glyphicon-pencil" aria-hidden="true" data-toggle="collapse" href="#collapseemail" aria-expanded="false" aria-controls="collapseExample"></span>
+                </label>
+                <div class="collapse" id="collapseemail">
+                  <input type="email" class="form-control" id="vacaturetitel" style="border-radius: 0px" placeholder="jandewaard@han.nl">
+                </div>               
+              </div>
+              <div class="formgroup">
+                <label for="vacaturetitel">Telefoonnummer contact persoon: </br> 0612345678
+                  <span class="glyphicon glyphicon-pencil" aria-hidden="true" data-toggle="collapse" href="#collapsetelefoon" aria-expanded="false" aria-controls="collapseExample"></span>
+                </label>
+                <div class="collapse" id="collapsetelefoon">
+                  <input type="email" class="form-control" id="vacaturetitel" style="border-radius: 0px" placeholder="jandewaard@han.nl">
+                </div>
+              </div>
             </div>
           </div>
       </div>
     </div>
-
+  </div>
+  <div class="row">
+    <div class="col-md-3 col-md-push-6">
+        <a href="dashboard.html"><input type="button" class="btn btn-success" style="border-radius: 0px;" value="Wijzigingen opslaan"></a>
+    </div>
+  </div>
+    <!-- Accordion voor bedrijfs gegevens
 <div class="panel-group col-md-6" id="accordion2" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
@@ -137,9 +198,7 @@
       </div>
     </div>
   </div>
-</div>
-
-  </div>
+</div> -->
 
 
   </div>
